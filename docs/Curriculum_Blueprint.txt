@@ -1,0 +1,367 @@
+CYBER UPGRADE - 9-MONTH MASTER COURSE CATALOG (DRAFT 01)
+36 weeks | 144 classes | Tuesday-Friday 5h/day | 20h/week | 720 hours
+Status: Course blueprint only. Full original textbooks, lab manuals, exercises, quizzes and answer explanations will be created separately after approval.
+Student does not need to research each topic independently: each finished weekly learning packet must contain explanation, examples, guided labs, troubleshooting, original questions, explained answers, and assignments.
+Class day pattern: Tuesday lesson; Wednesday technical lab; Thursday applied lab/project; Friday leadership translation, quiz and deliverable.
+Chegg Skills/Thinkful progression is an organizational reference, not copied proprietary content. Exact screenshot module-by-module match pending verification.
+
+
+MONTH 1  |  COMPUTER, NETWORK AND WINDOWS FOUNDATIONS
+
+WEEK 01: Orientation, computer systems and cyber careers
+Scope: Cyber roles; computing units; hardware and storage; virtualization; authorization and ethics
+Tuesday: Class 1: hardware/CPU/RAM/storage, bits/bytes, virtualization, responsible lab use
+Wednesday: Class 2: inventory computer specifications; create course folders and a lab safety checklist
+Thursday: Class 3: introduce VM snapshots, host-only/NAT networking, backups; build first safe test VM if compatible
+Friday: Class 4: skills baseline, 20-question diagnostic, reflection and learning log
+Submit: System inventory; laboratory safety agreement; baseline score
+Track: Foundations
+
+WEEK 02: Networking I: how computers communicate
+Scope: OSI and TCP/IP; IPv4/IPv6; IP/subnet; MAC; DNS; DHCP; gateways
+Tuesday: Class 5: packets and protocols, IP addressing and subnet calculations with worked examples
+Wednesday: Class 6: ipconfig/ip, ping, tracert/traceroute, nslookup/dig in a private lab
+Thursday: Class 7: capture and interpret permitted traffic using Wireshark; explain DNS and TCP handshakes
+Friday: Class 8: subnet worksheet, short quiz and packet-trace walkthrough
+Submit: Annotated packet capture and small-network map
+Track: Network fundamentals / Security+
+
+WEEK 03: Networking II: enterprise connectivity
+Scope: Ports; TCP/UDP; routing/switching; VLANs; firewalls; VPNs; wireless
+Tuesday: Class 9: routing, VLAN segmentation, protocols/ports and network service design
+Wednesday: Class 10: simulate two subnets and allow/deny rules using virtual networking
+Thursday: Class 11: test permitted versus blocked connections; draft a warehouse VLAN model
+Friday: Class 12: troubleshoot a deliberately broken network and present changes
+Submit: Segmented network diagram; firewall test record; change ticket
+Track: Network security / Security+
+
+WEEK 04: Windows administration and first checkpoint
+Scope: OS functions; Windows users/groups; NTFS permissions; logs; updates; endpoint baseline
+Tuesday: Class 13: OS processes/services, accounts, least privilege, security baselines
+Wednesday: Class 14: create local users, set permissions, explore Event Viewer on a lab Windows VM
+Thursday: Class 15: practice patch review, log export and basic PowerShell commands
+Friday: Class 16: practical exam 1 - Windows permissions and network troubleshooting
+Submit: Windows baseline worksheet; practical exam 1
+Track: Windows / Security+
+
+MONTH 2  |  LINUX, PYTHON AND CORE SECURITY
+
+WEEK 05: Linux administration
+Scope: Linux filesystem; permissions; users; processes; services; SSH; logs
+Tuesday: Class 17: CLI navigation and filesystem; chmod/chown; package management
+Wednesday: Class 18: safe user/permission changes and SSH login in Ubuntu VM
+Thursday: Class 19: examine journalctl/auth logs; harden service configuration with rollback
+Friday: Class 20: reconstruct a Linux access problem and explain corrective action
+Submit: Linux hardening checklist, before/after evidence, rollback notes
+Track: Linux / Security+
+
+WEEK 06: Python scripting and source control
+Scope: Variables; types; conditionals; loops; functions; files; CSV/JSON; Git
+Tuesday: Class 21: Python fundamentals using provided worked code examples
+Wednesday: Class 22: write a simple offline event-log parser with sample data
+Thursday: Class 23: add validation, exception handling, tests and Git commits
+Friday: Class 24: script demo, unit quiz and code review
+Submit: Python log parser, sample output, README and tests
+Track: Scripting foundations
+
+WEEK 07: Security principles and identity
+Scope: CIA; threats; risks; controls; zero trust; IAM; MFA; encryption/hashing; backups
+Tuesday: Class 25: assets/threats/vulnerabilities, risk thinking and control types
+Wednesday: Class 26: demonstrate role-based access controls and MFA concepts using lab examples
+Thursday: Class 27: compare hashing versus encryption; model backup and recovery priorities
+Friday: Class 28: build a control-to-threat mapping and answer scenario quiz
+Submit: Control matrix and short written risk assessment
+Track: Security+ domains
+
+WEEK 08: Secure-network design and Security+ checkpoint
+Scope: Security architecture; identity; inventory; attack surfaces; capstone planning
+Tuesday: Class 29: translate a fictional distribution center brief into security requirements
+Wednesday: Class 30: draft network plan, assets, VLANs, identity roles and rule sets
+Thursday: Class 31: threat-model design and run table-top review with failure scenarios
+Friday: Class 32: monthly exam 2 and Project 1 architecture approval
+Submit: Project 1 design package and checkpoint score
+Track: Security+ / Project 1
+
+MONTH 3  |  ENTERPRISE NETWORK PROJECT AND GOVERNANCE
+
+WEEK 09: Project 1: enterprise network security
+Scope: Implement segmentation, access control, validation and documentation
+Tuesday: Class 33: review design and deployment/change-control sequence
+Wednesday: Class 34: configure test virtual networks/endpoints and basic controls
+Thursday: Class 35: perform repeatable access tests, capture evidence and roll back unsafe rules
+Friday: Class 36: demo network and present 1-page executive explanation
+Submit: Project 1 final: topology, configs, test results and executive summary
+Track: Security+ / Portfolio
+
+WEEK 10: Governance, risk and compliance I
+Scope: NIST CSF 2.0 functions; asset inventory; risk registers; policies; control owners
+Tuesday: Class 37: explain Govern, Identify, Protect, Detect, Respond and Recover
+Wednesday: Class 38: create risk statements, likelihood/impact ratings and treatment plans
+Thursday: Class 39: map warehouse/distribution scenarios to control owners and evidence
+Friday: Class 40: risk committee mock meeting and documentation quiz
+Submit: Risk register and NIST CSF gap analysis
+Track: GRC / CGRC concepts
+
+WEEK 11: Governance, risk and compliance II
+Scope: Security policy writing; QA; audit testing; evidence; SOPs; remediation
+Tuesday: Class 41: distinguish policy, standard, procedure and guideline
+Wednesday: Class 42: draft user access review SOP and evidence collection checklist
+Thursday: Class 43: simulate an audit, record findings and plan corrective actions
+Friday: Class 44: explain audit results to an operations manager
+Submit: Security SOP, audit worksheet and remediation tracker
+Track: GRC / Security+
+
+WEEK 12: Security+ readiness and troubleshooting
+Scope: Integrated defensive scenarios; networking, identity, endpoints, GRC
+Tuesday: Class 45: structured review and guided security scenario walkthroughs
+Wednesday: Class 46: technical station practice: log review, basic hardening, network access
+Thursday: Class 47: target weak exam domains and complete timed original practice questions
+Friday: Class 48: monthly exam 3, proficiency rubric and exam-readiness decision
+Submit: Security+ readiness report and personal remediation plan
+Track: Security+ checkpoint
+
+MONTH 4  |  SECURITY OPERATIONS AND THREAT HUNTING
+
+WEEK 13: SOC operations I: people, process and telemetry
+Scope: SOC purpose; SIEM; endpoint/network telemetry; alerts; ticketing; triage
+Tuesday: Class 49: detection vs prevention and severity/priority classification
+Wednesday: Class 50: ingest prebuilt synthetic Windows/Linux events into a chosen local tool
+Thursday: Class 51: triage five simple alerts and document escalation reasons
+Friday: Class 52: conduct shift-handoff review and take scenario quiz
+Submit: SOC triage log, ticket template and escalation playbook
+Track: CySA+ / SC-200
+
+WEEK 14: SOC operations II: SIEM and searches
+Scope: Log fields; timestamps; parsing; queries; detection fidelity; baselines
+Tuesday: Class 53: SIEM architecture and false-positive/false-negative tradeoffs
+Wednesday: Class 54: run starter queries on sample data; identify account failures and anomalies
+Thursday: Class 55: tune simple detection logic and measure alert quality
+Friday: Class 56: propose deployment plan and reporting metrics
+Submit: Project 2 plan; basic search/detection rule set
+Track: CySA+ / SC-200
+
+WEEK 15: Threat intelligence and hunting
+Scope: Indicators vs behavior; MITRE ATT&CK; tactics/techniques; investigation hypotheses
+Tuesday: Class 57: ATT&CK mapping, threat intel confidence and operational use
+Wednesday: Class 58: query synthetic telemetry for an allowed attack simulation
+Thursday: Class 59: write hypothesis, expected evidence and alternate explanations
+Friday: Class 60: present findings and uncertainty in a one-page hunt brief
+Submit: Hunt plan, queries, findings and limitations
+Track: CySA+ / Threat detection
+
+WEEK 16: Project 2: simulated security operations center
+Scope: Alert handling; SIEM searches; incident tickets; detection tuning; metrics
+Tuesday: Class 61: organize simulated shift using roles, targets and operating procedures
+Wednesday: Class 62: process minimum five synthetic alerts and document evidence
+Thursday: Class 63: tune two detections; build operational dashboard from provided dataset
+Friday: Class 64: monthly exam 4 and Project 2 SOC handoff presentation
+Submit: Project 2 final: playbook, evidence, dashboard and shift report
+Track: CySA+ / SC-200
+
+MONTH 5  |  INCIDENT RESPONSE AND MICROSOFT SECURITY
+
+WEEK 17: Incident response lifecycle
+Scope: Preparation; identification; containment; eradication; recovery; communication
+Tuesday: Class 65: incident severity, roles, runbooks and decision authority
+Wednesday: Class 66: triage fictional phishing/ransomware indicators from synthetic logs
+Thursday: Class 67: plan containment versus business continuity with a distribution center scenario
+Friday: Class 68: tabletop briefing to IT, legal and operations roles
+Submit: Incident response plan and communications matrix
+Track: CySA+ / Incident response
+
+WEEK 18: Digital forensics and evidence
+Scope: Integrity; hashing; chain of custody; timelines; retention; reporting
+Tuesday: Class 69: legal/ethical scope, evidence types and forensic process limits
+Wednesday: Class 70: calculate file hashes and review preserved sample artifacts
+Thursday: Class 71: correlate synthetic events into defensible timeline
+Friday: Class 72: write findings and distinguish observed facts from inference
+Submit: Chain-of-custody sample and annotated event timeline
+Track: CySA+ / Forensics
+
+WEEK 19: Project 3: incident investigation
+Scope: Investigation workflow; technical findings; response decisions; lessons learned
+Tuesday: Class 73: review case packet and define questions/collection plan
+Wednesday: Class 74: analyze authorized synthetic host and network evidence
+Thursday: Class 75: produce containment/recovery actions and quantify uncertainty
+Friday: Class 76: defend evidence and present executive incident briefing
+Submit: Project 3 final: evidence index, timeline, report, after-action review
+Track: CySA+ / Portfolio
+
+WEEK 20: Microsoft security operations and KQL
+Scope: Defender/Sentinel concepts; workbooks; KQL; hunting queries; alert investigation
+Tuesday: Class 77: explain Microsoft security platform and security data flow
+Wednesday: Class 78: practice where/extend/summarize/project with offline KQL examples
+Thursday: Class 79: interpret and triage sample Microsoft-style alerts; define playbook
+Friday: Class 80: monthly exam 5 and SC-200 readiness gap map
+Submit: KQL workbook, alert triage record and readiness map
+Track: SC-200
+
+MONTH 6  |  CLOUD SECURITY AND ANALYST CERTIFICATIONS
+
+WEEK 21: Cloud security foundations
+Scope: Shared responsibility; IaaS/PaaS/SaaS; IAM; encryption; logging; network controls
+Tuesday: Class 81: cloud responsibility boundaries and threat modeling
+Wednesday: Class 82: draw role and permission relationships from sample architecture
+Thursday: Class 83: model secure storage, secrets and monitored traffic using emulator/diagrams
+Friday: Class 84: present cost, risk and access decisions
+Submit: Cloud threat model and least-privilege policy
+Track: Cloud / Azure security
+
+WEEK 22: Azure security engineering
+Scope: Azure identity; resource groups; RBAC; policy; networking; monitoring
+Tuesday: Class 85: Azure landing-zone vocabulary and management hierarchy
+Wednesday: Class 86: practice IAM/RBAC, policy and logging in approved sandbox or offline emulator
+Thursday: Class 87: test denial conditions and monitor access; document cleanup/cost limits
+Friday: Class 88: defend Azure baseline against common misconfiguration scenarios
+Submit: Azure architecture map and security baseline with evidence
+Track: Azure security / SC-200
+
+WEEK 23: AWS security engineering
+Scope: AWS IAM; VPCs; security groups; CloudTrail; KMS; shared responsibility
+Tuesday: Class 89: compare AWS/Azure security models and key services
+Wednesday: Class 90: implement least privilege in approved AWS sandbox or modeled examples
+Thursday: Class 91: log-review simulation; validate access boundaries and budget alerts
+Friday: Class 92: cloud configuration comparison and incident mini-quiz
+Submit: AWS access review and cloud control comparison
+Track: Cloud / Governance
+
+WEEK 24: Analyst certification review
+Scope: Vulnerability scanning reports; SIEM decisions; incident triage; KQL
+Tuesday: Class 93: consolidate incident and SOC scenario reasoning
+Wednesday: Class 94: timed hands-on stations using sample alerts and vulnerability data
+Thursday: Class 95: remediate weaker KQL, detection, cloud and response topics
+Friday: Class 96: monthly exam 6; CySA+/SC-200 readiness decisions
+Submit: Analyst readiness rubric and skills-gap backlog
+Track: CySA+ / SC-200
+
+MONTH 7  |  AI SECURITY, AUTOMATION AND GOVERNANCE
+
+WEEK 25: AI foundations for security
+Scope: ML vs rules; LLMs; inference; prompting; evaluation; privacy; hallucinations
+Tuesday: Class 97: AI system types, error modes and useful security applications
+Wednesday: Class 98: evaluate synthetic classification outputs against ground truth
+Thursday: Class 99: use fixed prompts on non-sensitive examples; test hallucination risk
+Friday: Class 100: write acceptable task boundaries and verification checklist
+Submit: AI limitations brief and evaluation worksheet
+Track: AI literacy
+
+WEEK 26: Python automation and data analysis
+Scope: Pandas basics; structured logs; parsing; APIs; secrets; reproducible tests
+Tuesday: Class 101: data cleaning/feature design and safe automation patterns
+Wednesday: Class 102: build a synthetic-alert summarizer in Python with offline data
+Thursday: Class 103: add unit tests, thresholds, logging and manual approval gate
+Friday: Class 104: code walkthrough, measurement and error analysis
+Submit: Reproducible triage script and test report
+Track: Python / Automation
+
+WEEK 27: AI security, governance and NIST AI RMF
+Scope: Prompt injection; leakage; oversight; vendor risk; AI inventory; governance
+Tuesday: Class 105: AI threat models and human accountability
+Wednesday: Class 106: run safe prompt-injection and data-leakage evaluations on mock data
+Thursday: Class 107: write policy, risk register entries and procurement questions
+Friday: Class 108: conduct risk acceptance committee simulation
+Submit: AI policy, risk assessment and attack-test worksheet
+Track: AI governance / GRC
+
+WEEK 28: Project 4: secure Azure + AWS architecture
+Scope: Reference architecture; IAM; logging; monitoring; encryption; cost controls
+Tuesday: Class 109: finalize cross-cloud secure-architecture requirements
+Wednesday: Class 110: document Azure/AWS control configurations from sandboxes or emulated evidence
+Thursday: Class 111: test role access, log coverage, rollback and budget guardrails
+Friday: Class 112: monthly exam 7 and Project 4 architecture review
+Submit: Project 4 final: diagrams, access matrix, tests, cost and risk record
+Track: Azure / Cloud portfolio
+
+MONTH 8  |  CLOUD/AI PORTFOLIO AND PROJECT MANAGEMENT
+
+WEEK 29: Project 5: AI-assisted security operations
+Scope: Human-in-loop alert triage; safety controls; traceability; evaluation
+Tuesday: Class 113: define business case and success metrics for AI triage
+Wednesday: Class 114: implement small synthetic-data triage prototype in Python
+Thursday: Class 115: test incorrect classification, prompt injection, privacy and override workflows
+Friday: Class 116: demo Project 5 and present limitations to simulated management
+Submit: Project 5 final: prototype, tests, model-risk register and approval flow
+Track: AI + SOC portfolio
+
+WEEK 30: Security project management
+Scope: Scope; schedules; WBS; stakeholders; dependencies; change control; agile/hybrid
+Tuesday: Class 117: project charter and baseline estimation; CAPM concepts
+Wednesday: Class 118: create work breakdown and critical path for SOC rollout
+Thursday: Class 119: manage change request, schedule delay and risk escalation simulation
+Friday: Class 120: steering committee update and quiz
+Submit: Security project charter, WBS, timeline and status report
+Track: CAPM / Management
+
+WEEK 31: Cyber budgeting, vendors and ROI
+Scope: Labor/tooling costs; licensing; procurement; risk-based prioritization; TCO
+Tuesday: Class 121: distinguish capital vs operational expenses and tool tradeoffs
+Wednesday: Class 122: build 12-month starter budget from fictional line items
+Thursday: Class 123: evaluate vendors for security, privacy, support and cost
+Friday: Class 124: defend purchasing decision using risk and assumptions
+Submit: Budget workbook specification and vendor scorecard
+Track: Cyber management / GRC
+
+WEEK 32: Security leadership and management systems
+Scope: RACI; hiring; coaching; incident leadership; KPIs/KRIs; board reporting
+Tuesday: Class 125: design reporting lines and operating procedures
+Wednesday: Class 126: create staffing plan, duties, escalation ladder and onboarding
+Thursday: Class 127: facilitate cybersecurity tabletop and resolve conflicting priorities
+Friday: Class 128: monthly exam 8 and leadership review panel
+Submit: RACI, staffing plan, team KPIs and tabletop minutes
+Track: Management / CGRC/CISM concepts
+
+MONTH 9  |  CYBERSECURITY LEADERSHIP, CAREER AND GRADUATION
+
+WEEK 33: Project 6: build a cybersecurity department
+Scope: Program governance; policy library; risk register; org design; roadmaps
+Tuesday: Class 129: select fictional warehouse/distribution company and business objectives
+Wednesday: Class 130: build operating charter, policies, staffing and risk governance cycle
+Thursday: Class 131: create phased 12-month improvement roadmap and metrics
+Friday: Class 132: peer-style operating review and draft management presentation
+Submit: Project 6: operating model, department charter, risk register and roadmap
+Track: Management capstone
+
+WEEK 34: Project 6: executive board presentation
+Scope: Budget decisions; risk tradeoffs; executive storytelling; metrics; portfolio defense
+Tuesday: Class 133: turn technical evidence into 10-minute management presentation
+Wednesday: Class 134: justify program investment and response to incident scenario
+Thursday: Class 135: refine portfolio and answer tough audit/board questions
+Friday: Class 136: project defense, monthly exam 9 and board memo
+Submit: Project 6 final: board brief, budget, 12-month roadmap, leadership artifacts
+Track: Management capstone
+
+WEEK 35: Career launch and interview portfolio
+Scope: Job-role mapping; ethical resume; STAR stories; interview drills; applications
+Tuesday: Class 137: map qualifications to cybersecurity analyst, GRC, project roles
+Wednesday: Class 138: create technical and GRC/project resume versions from true experience
+Thursday: Class 139: run mock scenario interview; refine project case studies
+Friday: Class 140: prioritize job applications and document next-skill gaps
+Submit: Two resumes, interview story bank and application tracker
+Track: Career / All certs
+
+WEEK 36: Final exam, six-project defense and next 90 days
+Scope: Integrated technical problem solving; program strategy; job-readiness evaluation
+Tuesday: Class 141: review all domain objectives and finish portfolio index
+Wednesday: Class 142: timed technical practical with logs, network and risk evidence
+Thursday: Class 143: executive management case and 90-day leadership plan
+Friday: Class 144: cumulative exam, portfolio defense and individual next-step plan
+Submit: Final scorecard, six-project index, career/credential roadmap
+Track: Graduation decision
+
+SIX PORTFOLIO PROJECTS
+Project 1 | Enterprise Network Security (Weeks 8-9)
+Topology; asset inventory; VLAN/firewall model; least privilege; verification tests; one-page leadership summary.
+Project 2 | Simulated SOC (Weeks 14-16)
+Ingest synthetic telemetry; at least five investigated alerts; search/detection logic; false-positive tuning; SOC metrics and shift handoff.
+Project 3 | Incident Response & Forensics (Weeks 17-19)
+Synthetic case evidence; chain-of-custody model; timeline; impact assessment; response plan; after-action review.
+Project 4 | Azure + AWS Security (Weeks 21-23, 28)
+Two-cloud reference architecture, RBAC/IAM, safe logging and monitoring, risk register, testing and zero-surprise cost checklist.
+Project 5 | AI-Assisted Security Operations (Weeks 25-27, 29)
+Python prototype using synthetic data; human approval; measured errors; prompt-injection/privacy test cases; responsible AI policy.
+Project 6 | Cybersecurity Department Build-Out (Weeks 30-34)
+Governance charter, risk register, staffing and RACI, 12-month roadmap, policies, budget, metrics and board presentation.
+
+ASSESSMENTS: Weekly lab and 10-20 item quiz; monthly checkpoints at weeks 4,8,12,16,20,24,28,32,36; 80% mastery goal; cumulative practical and portfolio defense Week 36.
+PROGRAMS COVERED: Security+, CySA+, Microsoft SC-200, Azure/AWS security, CGRC knowledge, CAPM management, AI security and NIST CSF governance. Actual exam readiness and credential eligibility are separate decisions.
+LAB NOTE: Check host RAM/CPU before deciding on VMs; practice in isolated authorized labs, using synthetic data and cloud cost controls.

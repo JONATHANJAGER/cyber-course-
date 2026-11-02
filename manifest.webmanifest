@@ -1,0 +1,11 @@
+{
+  "name": "Cyber Upgrade Academy",
+  "short_name": "Cyber Upgrade",
+  "description": "Interactive nine-month cybersecurity course catalog and original pilot lessons.",
+  "start_url": "./#/dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071522",
+  "theme_color": "#071522",
+  "icons": [{"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071522">
+  <meta name="description" content="Cyber Upgrade Academy: a 36-week, 144-class guided cybersecurity learning platform.">
+  <title>Cyber Upgrade | Your Cybersecurity Academy</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./data/course.js"></script>
+  <script defer src="./data/lessons.js"></script>
+  <script defer src="./assets/app.js"></script>
+</head>
+<body>
+  <div class="app-shell" id="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a href="#/dashboard" class="brand" aria-label="Cyber Upgrade home"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span><strong>CYBER UPGRADE</strong><small>THE ONLINE ACADEMY</small></span></a>
+      <div class="sidebar-small-heading">LEARNING HUB</div>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main sections">
+        <a href="#/dashboard" data-view="dashboard"><span aria-hidden="true">▦</span> Dashboard</a>
+        <a href="#/curriculum" data-view="curriculum"><span aria-hidden="true">▤</span> Course catalog</a>
+        <a href="#/workspace" data-view="workspace"><span aria-hidden="true">◷</span> My workspace</a>
+        <a href="#/projects" data-view="projects"><span aria-hidden="true">◇</span> Portfolio projects</a>
+        <a href="#/about" data-view="about"><span aria-hidden="true">ⓘ</span> How it works</a>
+      </nav>
+      <div class="sidebar-small-heading">9-MONTH PATHWAY</div>
+      <nav class="month-nav" id="month-nav" aria-label="Months"></nav>
+      <div class="sidebar-bottom"><div class="sidebar-bottom-title">YOUR LEARNING SPACE</div><p>Built for your phone, laptop, and practical cyber skills.</p><span class="tiny-status"><i aria-hidden="true"></i> Progress saved on this device</span></div>
+    </aside>
+    <div class="mobile-overlay" id="mobile-overlay" hidden></div>
+    <div class="app-main">
+      <header class="topbar">
+        <button class="icon-button menu-btn" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <span class="topbar-section" id="topbar-section">MY LEARNING DASHBOARD</span>
+        <div class="topbar-right"><span class="topbar-pill"><span class="pulse-dot"></span> 36-WEEK PROGRAM</span><button class="help-button" id="help-button" type="button" title="Read platform information" aria-label="Help and platform information">?</button></div>
+      </header>
+      <main id="main-content" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer">CYBER UPGRADE ACADEMY <span>•</span> Original educational content <span>•</span> Lab only on systems you own or are authorized to test.</footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+</body>
+</html>
